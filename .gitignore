@@ -51,7 +51,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+sgws_management.log
 
 # Sphinx documentation
 docs/_build/
@@ -60,4 +60,4 @@ docs/_build/
 target/
 .idea/
 
-new_mgmt.conf
+config/webscaledemo.conf

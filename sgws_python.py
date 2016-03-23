@@ -1,7 +1,5 @@
 import logging
-import parseargs
-import json
-import quota
+from sgws import parseargs, quota
 
 logger = logging.getLogger(__name__)
 

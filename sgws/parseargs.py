@@ -9,8 +9,8 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('--DEBUG', '-d', action='store_true', default=False, dest='level',
                         help='Set logging level to DEBUG.')
-    parser.add_argument('-c', action='store', type=str, dest='config_file', default='../config/sgws_management.conf',
-                        help='Specify the config file.  The default is sgws_management.conf')
+    parser.add_argument('-c', action='store', type=str, dest='config_file', default='config/sgws_quota.conf',
+                        help='Specify the config file.  The default is sgws_quota.conf')
 
     results = parser.parse_args()
     config = ConfigObj(results.config_file)
