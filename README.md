@@ -12,4 +12,4 @@ In the ```<root dir>/sgws_quota/config/sgws_quota.conf``` file, edit the paramet
 
 ###Usage
 
-```./sgws_quota```
+```python sgws_quota.py```
